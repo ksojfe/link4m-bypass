@@ -14,7 +14,7 @@
 // @grant        unsafeWindow
 // @downloadURL  https://raw.githubusercontent.com/ksojfe/link4m-bypass/refs/heads/main/link4m.user.js
 // @updateURL    https://raw.githubusercontent.com/ksojfe/link4m-bypass/refs/heads/main/link4m.user.js
-// @require      https://raw.githubusercontent.com/ksojfe/link4m-bypass/refs/heads/main/link4m.js?v=1.0.0
+// @require      https://raw.githubusercontent.com/ksojfe/link4m-bypass/refs/heads/main/link4m.js
 // @connect      *
 // @run-at       document-idle
 // @noframes
