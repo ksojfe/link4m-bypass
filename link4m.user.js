@@ -12,6 +12,9 @@
 // @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
 // @grant        unsafeWindow
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_setClipboard
 // @downloadURL  https://raw.githubusercontent.com/ksojfe/link4m-bypass/refs/heads/main/link4m.user.js
 // @updateURL    https://raw.githubusercontent.com/ksojfe/link4m-bypass/refs/heads/main/link4m.user.js
 // @require      https://raw.githubusercontent.com/ksojfe/link4m-bypass/refs/heads/main/link4m.js
