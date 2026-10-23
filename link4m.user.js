@@ -11,7 +11,6 @@
 // @match        *://*.link4m.org/go/*
 // @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
-// @grant        unsafeWindow
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_setClipboard
