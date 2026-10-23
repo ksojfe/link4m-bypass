@@ -3,7 +3,7 @@
 // @description  Link4m Bypass
 // @version      1792761047
 // @author       <@1241343701435944960>
-// @icon         https://media.discordapp.net/attachments/1472526433623474348/1562404467498946560/well.png?ex=6ad9de0d&is=6ad88c8d&hm=eb28d2e1002df6e6cbc275f57cb2a3505eeae31ecf7668f615c928755fe11819&=&format=webp&quality=lossless&size=64
+// @icon         https://cdn.jsdelivr.net/gh/n1ulls/link4m-bypass@main/assets/icon.png&size=64
 // @match        *://link4m.com/go/*
 // @match        *://*.link4m.com/go/*
 // @match        *://link4m.net/go/*
