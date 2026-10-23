@@ -14,9 +14,9 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_setClipboard
-// @downloadURL  https://raw.githubusercontent.com/n1ulls/link4m-bypass/refs/heads/main/link4m.user.js
-// @updateURL    https://raw.githubusercontent.com/n1ulls/link4m-bypass/refs/heads/main/link4m.user.js
-// @require      https://raw.githubusercontent.com/n1ulls/link4m-bypass/refs/heads/main/link4m.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/n1ulls/link4m-bypass@main/link4m.user.js
+// @updateURL    https://cdn.jsdelivr.net/gh/n1ulls/link4m-bypass@main/link4m.user.js
+// @require      https://cdn.jsdelivr.net/gh/n1ulls/link4m-bypass@d3668a1bc9cd7ed0e756f3bfe6312392fe058501/link4m.js
 // @connect      *
 // @run-at       document-idle
 // @noframes
