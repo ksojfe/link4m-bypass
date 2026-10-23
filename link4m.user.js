@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Link4m Bypass
-// @description  Link4m Bypass
+// @description  bypass
 // @version      1792761047
 // @author       <@1241343701435944960>
 // @icon         https://cdn.jsdelivr.net/gh/n1ulls/link4m-bypass@main/assets/icon.png&size=64
