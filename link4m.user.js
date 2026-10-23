@@ -10,6 +10,9 @@
 // @match        *://*.link4m.net/go/*
 // @match        *://link4m.org/go/*
 // @match        *://*.link4m.org/go/*
+// @exclude      https://link4m.com/go/not-found
+// @exclude      https://link4m.net/go/not-found
+// @exclude      https://link4m.org/go/not-found
 // @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
 // @grant        GM_getValue
