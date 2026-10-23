@@ -1,0 +1,30 @@
+name: link4m-bypass
+on:
+  push:
+    paths: ["link4m.js"]
+permissions:
+  contents: write
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update hash + version
+        run: |
+          H=$(git rev-parse HEAD)
+          V=$(date +%s)
+          sed -i -E "s|(@require[[:space:]]+https://cdn\.jsdelivr\.net/gh/[^@]+@)[0-9a-f]{7,40}(/link4m\.js)|\1$H\2|" link4m.user.js
+          sed -i -E "s|(@version[[:space:]]+).*|\1$V|" link4m.user.js
+
+      - name: Commit
+        run: |
+          git config user.name "bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add link4m.user.js
+          git commit -m "bump version + hash" || exit 0
+          git push
+
+      - name: Purge jsDelivr
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/link4m.user.js"
