@@ -19,8 +19,8 @@ jobs:
 
       - name: Commit
         run: |
-          git config user.name "bot"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.name "n1ulls"
+          git config user.email "n1ulls@users.noreply.github.com"
           git add link4m.user.js
           git commit -m "bump version + hash" || exit 0
           git push
