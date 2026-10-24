@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Link4m Bypass
 // @description  ...
-// @version      1792826669
+// @version      1792840730
 // @author       <@1241343701435944960>
 // @icon         https://cdn.jsdelivr.net/gh/n1ulls/link4m-bypass@main/assets/icon.png
 // @match        *://link4m.com/go/*
@@ -20,7 +20,7 @@
 // @grant        GM_setClipboard
 // @downloadURL  https://cdn.jsdelivr.net/gh/n1ulls/link4m-bypass@main/link4m.user.js
 // @updateURL    https://cdn.jsdelivr.net/gh/n1ulls/link4m-bypass@main/link4m.user.js
-// @require      https://cdn.jsdelivr.net/gh/n1ulls/link4m-bypass@b2398ccdc695b1ff249ec37f0fd3b66628a23066/link4m.js
+// @require      https://cdn.jsdelivr.net/gh/n1ulls/link4m-bypass@128cfbdd0ed5a969cc43d7ccf7b131a4aed05cff/link4m.js
 // @connect      *
 // @run-at       document-idle
 // @noframes
